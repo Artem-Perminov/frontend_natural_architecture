@@ -1,6 +1,3 @@
-// @ts-check
+import myApp from './myApp';
 
-import init from './init.js';
-import './style.css';
-
-init();
+myApp();

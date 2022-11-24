@@ -1,5 +1,5 @@
 {
-  "name": "webpack-package",
+  "name": "frontend_natural_architecture",
   "version": "0.1.0",
   "description": "",
   "scripts": {
@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/hexlet-boilerplates/webpack-package.git"
   },
-  "author": "Kirill Mokevnin",
+  "author": "Artem Perminov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hexlet-boilerplates/webpack-package/issues"
@@ -20,7 +20,7 @@
     "testURL": "http://localhost/",
     "testEnvironment": "jsdom"
   },
-  "main": "src/init.js",
+  "main": "index.js",
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/eslint-parser": "^7.15.4",
@@ -48,6 +48,7 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
+    "axios": "^1.2.0",
     "npm-check-updates": "^11.8.5",
     "sass": "^1.39.0",
     "sass-loader": "^12.1.0"
